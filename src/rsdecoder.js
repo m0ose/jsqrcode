@@ -22,8 +22,8 @@
 * limitations under the License.
 */
 
-import GF256 from './gf256';
-import GF256Poly from './gf256poly';
+import GF256 from './gf256.js';
+import GF256Poly from './gf256poly.js';
 
 export default function ReedSolomonDecoder(field) {
   this.field = field;

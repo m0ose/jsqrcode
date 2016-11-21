@@ -22,7 +22,7 @@
 * limitations under the License.
 */
 
-import GF256 from './gf256';
+import GF256 from './gf256.js';
 
 export default function GF256Poly(field,  coefficients) {
   if (coefficients == null || coefficients.length == 0) {

@@ -22,7 +22,7 @@
 * limitations under the License.
 */
 
-import GF256Poly from './gf256poly';
+import GF256Poly from './gf256poly.js';
 
 export default function GF256(primitive) {
   this.expTable = new Array(256);

@@ -22,7 +22,7 @@
 * limitations under the License.
 */
 
-import {qrcode} from './qrcode';
+import {qrcode} from './qrcode.js';
 
 export default function QRCodeDataBlockReader(blocks,  version,  numErrorCorrectionCode) {
   this.blockPointer = 0;

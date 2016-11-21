@@ -22,10 +22,10 @@
 * limitations under the License.
 */
 
-import Version from './version';
-import {AlignmentPatternFinder} from './alignpat';
-import GridSampler from './grid';
-import {FinderPatternFinder} from './findpat';
+import Version from './version.js';
+import {AlignmentPatternFinder} from './alignpat.js';
+import GridSampler from './grid.js';
+import {FinderPatternFinder} from './findpat.js';
 
 function PerspectiveTransform(a11,  a21,  a31,  a12,  a22,  a32,  a13,  a23,  a33) {
   this.a11 = a11;

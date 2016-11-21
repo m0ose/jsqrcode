@@ -22,9 +22,9 @@
 * limitations under the License.
 */
 
-import FormatInformation from './formatinf';
-import Version from './version';
-import DataMask from './datamask';
+import FormatInformation from './formatinf.js';
+import Version from './version.js';
+import DataMask from './datamask.js';
 
 export default function BitMatrixParser(bitMatrix) {
   var dimension = bitMatrix.Dimension;

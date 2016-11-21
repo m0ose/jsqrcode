@@ -22,8 +22,8 @@
 * limitations under the License.
 */
 
-import {URShift} from './qrcode';
-import ErrorCorrectionLevel from './errorlevel';
+import {URShift} from './qrcode.js';
+import ErrorCorrectionLevel from './errorlevel.js';
 
 var FORMAT_INFO_MASK_QR = 0x5412;
 var FORMAT_INFO_DECODE_LOOKUP = [
@@ -117,5 +117,3 @@ FormatInformation.doDecodeFormatInformation = function(maskedFormatInfo) {
   }
   return null;
 };
-
-

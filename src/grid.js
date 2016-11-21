@@ -22,7 +22,7 @@
 * limitations under the License.
 */
 
-import BitMatrix from './bitmat';
+import BitMatrix from './bitmat.js';
 
 var GridSampler = {};
 

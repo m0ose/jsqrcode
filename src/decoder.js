@@ -22,11 +22,11 @@
 * limitations under the License.
 */
 
-import ReedSolomonDecoder from './rsdecoder';
-import GF256 from './gf256';
-import BitMatrixParser from './bmparser';
-import DataBlock from './datablock';
-import QRCodeDataBlockReader from './databr';
+import ReedSolomonDecoder from './rsdecoder.js';
+import GF256 from './gf256.js';
+import BitMatrixParser from './bmparser.js';
+import DataBlock from './datablock.js';
+import QRCodeDataBlockReader from './databr.js';
 
 var Decoder = {};
 Decoder.rsDecoder = new ReedSolomonDecoder(GF256.QR_CODE_FIELD);

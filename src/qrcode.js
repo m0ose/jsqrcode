@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-import Detector from './detector';
-import Decoder from './decoder';
+import Detector from './detector.js';
+import Decoder from './decoder.js';
 
 export var qrcode = {};
 qrcode.sizeOfDataLengthInfo =  [[10, 9, 8, 8], [12, 11, 16, 10], [14, 13, 16, 12]];

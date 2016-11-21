@@ -22,8 +22,8 @@
 * limitations under the License.
 */
 
-import FormatInformation from './formatinf';
-import BitMatrix from './bitmat';
+import FormatInformation from './formatinf.js';
+import BitMatrix from './bitmat.js';
 
 function ECB(count,  dataCodewords) {
   this.count = count;

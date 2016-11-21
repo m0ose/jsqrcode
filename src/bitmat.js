@@ -22,7 +22,7 @@
 * limitations under the License.
 */
 
-import {URShift} from './qrcode';
+import {URShift} from './qrcode.js';
 
 export default function BitMatrix(width,  height) {
   if (!height)
